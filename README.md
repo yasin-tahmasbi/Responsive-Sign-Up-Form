@@ -31,7 +31,7 @@ Everything you need is on my website 👇
 
 ## 📷 Preview | Screenshots
 
-![Homepage Screenshot](assets/img/sc1.png)
+![Homepage Screenshot](src/img/sc1.png)
 
 
-![Homepage Screenshot](assets/img/sc2.png)
+![Homepage Screenshot](src/img/sc2.png)
