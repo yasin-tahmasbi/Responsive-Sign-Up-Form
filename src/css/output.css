@@ -229,9 +229,6 @@
   .h-screen {
     height: 100vh;
   }
-  .w-\[70\%\] {
-    width: 70%;
-  }
   .w-full {
     width: 100%;
   }
@@ -268,10 +265,6 @@
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
-  }
-  .border-2 {
-    border-style: var(--tw-border-style);
-    border-width: 2px;
   }
   .border-\[1px\] {
     border-style: var(--tw-border-style);
@@ -334,9 +327,6 @@
   .font-poppins {
     font-family: var(--font-poppins);
   }
-  .text-\[3px\] {
-    font-size: 3px;
-  }
   .text-\[13px\] {
     font-size: 13px;
   }
@@ -349,20 +339,11 @@
   .text-\[16px\] {
     font-size: 16px;
   }
-  .text-\[18px\] {
-    font-size: 18px;
-  }
-  .text-\[20px\] {
-    font-size: 20px;
-  }
   .text-\[30px\] {
     font-size: 30px;
   }
   .text-\[35px\] {
     font-size: 35px;
-  }
-  .text-\[40px\] {
-    font-size: 40px;
   }
   .font-\[400\] {
     --tw-font-weight: 400;
@@ -388,21 +369,6 @@
   }
   .text-\[\#fff\] {
     color: #fff;
-  }
-  .text-\[1\] {
-    color: 1;
-  }
-  .text-\[13\] {
-    color: 13;
-  }
-  .text-\[13p\] {
-    color: 13p;
-  }
-  .text-\[16\] {
-    color: 16;
-  }
-  .text-\[16p\] {
-    color: 16p;
   }
   .underline {
     text-decoration-line: underline;
@@ -486,16 +452,6 @@
       content: var(--tw-content);
     }
   }
-  .md\:text-\[1px\] {
-    @media (width >= 48rem) {
-      font-size: 1px;
-    }
-  }
-  .md\:text-\[13px\] {
-    @media (width >= 48rem) {
-      font-size: 13px;
-    }
-  }
   .md\:text-\[15px\] {
     @media (width >= 48rem) {
       font-size: 15px;
@@ -506,19 +462,9 @@
       font-size: 17px;
     }
   }
-  .md\:text-\[30px\] {
-    @media (width >= 48rem) {
-      font-size: 30px;
-    }
-  }
   .md\:text-\[35px\] {
     @media (width >= 48rem) {
       font-size: 35px;
-    }
-  }
-  .md\:text-\[40px\] {
-    @media (width >= 48rem) {
-      font-size: 40px;
     }
   }
   .lg\:flex {
@@ -536,24 +482,14 @@
       width: 57%;
     }
   }
-  .xl\:w-\[7\] {
-    @media (width >= 80rem) {
-      width: 7;
+  .lg\:pr-\[20px\] {
+    @media (width >= 64rem) {
+      padding-right: 20px;
     }
   }
   .xl\:w-\[70\%\] {
     @media (width >= 80rem) {
       width: 70%;
-    }
-  }
-  .xl\:w-\[70\] {
-    @media (width >= 80rem) {
-      width: 70;
-    }
-  }
-  .xl\:text-\[1px\] {
-    @media (width >= 80rem) {
-      font-size: 1px;
     }
   }
   .xl\:text-\[16px\] {
@@ -569,36 +505,6 @@
   .xl\:text-\[40px\] {
     @media (width >= 80rem) {
       font-size: 40px;
-    }
-  }
-  .xl\:text-\[1\] {
-    @media (width >= 80rem) {
-      color: 1;
-    }
-  }
-  .xl\:text-\[4\] {
-    @media (width >= 80rem) {
-      color: 4;
-    }
-  }
-  .xl\:text-\[18\] {
-    @media (width >= 80rem) {
-      color: 18;
-    }
-  }
-  .xl\:text-\[18p\] {
-    @media (width >= 80rem) {
-      color: 18p;
-    }
-  }
-  .xl\:text-\[40\] {
-    @media (width >= 80rem) {
-      color: 40;
-    }
-  }
-  .xl\:text-\[40p\] {
-    @media (width >= 80rem) {
-      color: 40p;
     }
   }
 }
