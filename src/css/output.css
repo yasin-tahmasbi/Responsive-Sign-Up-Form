@@ -199,6 +199,9 @@
   .my-\[60px\] {
     margin-block: 60px;
   }
+  .my-auto {
+    margin-block: auto;
+  }
   .mt-\[30px\] {
     margin-top: 30px;
   }
@@ -240,6 +243,9 @@
   }
   .h-\[1px\] {
     height: 1px;
+  }
+  .min-h-dvh {
+    min-height: 100dvh;
   }
   .w-full {
     width: 100%;
@@ -338,6 +344,9 @@
   }
   .py-\[20px\] {
     padding-block: 20px;
+  }
+  .py-\[50px\] {
+    padding-block: 50px;
   }
   .py-\[px\] {
     padding-block: px;
