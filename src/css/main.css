@@ -1,0 +1,40 @@
+/* npx @tailwindcss/cli -i ./src/css/main.css -o ./src/css/output.css --watch */
+
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../font/poppins/Poppins-Regular.ttf') format('true type');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../font/poppins/Poppins-Medium.ttf') format('true type');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../font/poppins/Poppins-SemiBold.ttf') format('true type');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../font/poppins/Poppins-Bold.ttf') format('true type');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@theme {
+  --font-poppins: 'poppins', sans-serif;
+}
+@layer utilities {
+  .font-poppins {
+    font-family: var(--font-poppins);
+  }
+}
