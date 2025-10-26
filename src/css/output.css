@@ -318,9 +318,6 @@
   .py-\[20px\] {
     padding-block: 20px;
   }
-  .pr-\[20px\] {
-    padding-right: 20px;
-  }
   .text-center {
     text-align: center;
   }
@@ -485,6 +482,11 @@
   .lg\:pr-\[20px\] {
     @media (width >= 64rem) {
       padding-right: 20px;
+    }
+  }
+  .lg\:text-left {
+    @media (width >= 64rem) {
+      text-align: left;
     }
   }
   .xl\:w-\[70\%\] {
