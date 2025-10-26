@@ -220,14 +220,29 @@
   .hidden {
     display: none;
   }
+  .table {
+    display: table;
+  }
   .h-\[1px\] {
     height: 1px;
+  }
+  .h-dvh {
+    height: 100dvh;
+  }
+  .h-dvw {
+    height: 100dvw;
   }
   .h-screen {
     height: 100vh;
   }
   .w-full {
     width: 100%;
+  }
+  .border-collapse {
+    border-collapse: collapse;
+  }
+  .resize {
+    resize: both;
   }
   .flex-col {
     flex-direction: column;
@@ -252,6 +267,10 @@
   }
   .rounded-\[30px\] {
     border-radius: 30px;
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
   }
   .border-\[1px\] {
     border-style: var(--tw-border-style);
@@ -353,6 +372,13 @@
   }
   .text-\[\#fff\] {
     color: #fff;
+  }
+  .underline {
+    text-decoration-line: underline;
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
   }
   .\*\:block {
     :is(& > *) {
@@ -528,6 +554,11 @@
   syntax: "*";
   inherits: false;
 }
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @property --tw-content {
   syntax: "*";
   initial-value: "";
@@ -538,6 +569,7 @@
     *, ::before, ::after, ::backdrop {
       --tw-border-style: solid;
       --tw-font-weight: initial;
+      --tw-outline-style: solid;
       --tw-content: "";
     }
   }
